@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/create-invoice.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/api/create-invoice", "destination": "/api/create-invoice.js" }
+  ]
+}
